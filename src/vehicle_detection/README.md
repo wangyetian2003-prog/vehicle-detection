@@ -111,7 +111,7 @@ The OpenCV window titled **"Vehicle Detection - AAE4011"** will appear, showing 
 
 ## 7. Video Demonstration
 
-**Video Link:** [YouTube (Unlisted)](https://youtu.be/10Hd10kjgFE)
+**Video Link:** [YouTube (Unlisted)](https://youtu.be/9lva1DTqup8)
 
 The video demonstrates:
 - (a) Launching the ROS package using `roslaunch vehicle_detection detect.launch`
