@@ -1,0 +1,10 @@
+<launch>
+  <param name="use_sim_time" value="true"/>
+  <node pkg="rosbag" type="play" name="bag_player"
+        args="/home/brocolli/catkin_ws/src/vehicle_detection/data/2026-02-02-17-57-27.bag --clock -l"
+        output="screen"/>
+  <node pkg="vehicle_detection" type="detect_vehicles.py"
+        name="vehicle_detector" output="screen"/>
+  <node pkg="vehicle_detection" type="visualise_ui.py"
+        name="vehicle_ui" output="screen"/>
+</launch>
