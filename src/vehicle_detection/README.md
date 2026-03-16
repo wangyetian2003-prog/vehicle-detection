@@ -99,11 +99,8 @@ The OpenCV window titled **"Vehicle Detection - AAE4011"** will appear, showing 
 
 ## 6. Sample Results
 
-**Image Extraction Summary:**
-- Rosbag file: `2026-02-02-17-57-27.bag`
-- Duration: ~114 seconds
-- Image topic: `/camera/image_raw/compressed`
-- Approximate frame count: ~3400 frames
+**Image Summary:**
+- Images: **result**
 
 **Detection Statistics:**
 - Detected classes: car, truck, bus, motorcycle
